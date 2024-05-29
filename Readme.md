@@ -2,7 +2,7 @@
 
 * Студент: [Игорь Олейников](https://up.htmlacademy.ru/htmlcss/40/user/2508915).
 * Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
-* Сайт : [Мой проект Седона](https://github.com/oleinikov-2000/2508915-sedona-40)
+* Сайт : [Мой проект Седона](https://oleinikov-2000.github.io/2508915-sedona-40/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
