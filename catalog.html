@@ -31,13 +31,10 @@
           <a class="navigate-link" href="#"><span class="visually-hidden">Поиск</span></a>
         </li>
         <li class="navigate-data">
-          <a class="navigate-link" href="#"><span class="visually-hidden">Избранное</span></a>
+          <a class="navigate-link" href="#"><span class="visually-hidden">В избранном 12</span></a>
         </li>
         <li class="navigate-data">
-          <button type="button">
-            <span class="button-nav"></span>
-            Хочу сюда
-          </button>
+          <a class="navigate-link" href="#"><span class="visually-hidden"> Хочу сюда!</span></a>
         </li>
       </ul>
     </section>
@@ -117,24 +114,32 @@
           <button class="button clear-button" type="reset">Сбросить</button>
         </form>
 
-        <p class="hotels-quantity">Найдено гостиниц: 12</p>
-
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешевые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-          <option value="stars">По количеству звезд</option>
-        </select>
-
-        <a href="#" class="button button-checked">
-          <img class="hotels-sorting-type-img" src="#" alt="Плитка">
-        </a>
-        <a class="button" href="#">
-          <img class="hotels-sorting-type-img" src="#" alt="Карточки">
-        </a>
-        <a class="button" href="#">
-          <img class="hotels-sorting-type-img" src="#" alt="Список">
-        </a>
+        <div class="cards-filter">
+          <p>Найдено гостиниц: <span>16</span></p>
+          <select class="" aria-label="Сортировка">
+            <option value="cheap">Сначала дешевые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+            <option value="stars">По количеству звезд</option>
+          </select>
+          <ul class="link-cards">
+            <li class="button-cards-item">
+              <a href="catalog.html?view=tile">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+            <li class="button-cards-item">
+              <a href="catalog.html?view=card">
+                <span class="visually-hidden">Показать по одной карточке</span>
+              </a>
+            </li>
+            <li class="button-cards-item">
+              <a href="catalog.html?view=list">
+                <span class="visually-hidden">Показать список</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <ul class="hotel-list">
           <li class="hotel-card">
@@ -214,27 +219,27 @@
 
     </main>
     <footer class="page-footer">
-      <section class="footer-social">
+      <section class="social">
         <h2 class="visually-hidden">Социальные сети</h2>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
+        <ul class="social-list">
+          <li class="social-item">
             <a class="button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="social-item">
             <a class="button" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Telegram</span>
             </a>
           </li>
-          <li class="footer-social-item">
+          <li class="social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">Youtube</span>
             </a>
           </li>
         </ul>
       </section>
-      <section class="footer-contacts">
+      <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
         <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
