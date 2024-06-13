@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+
+.welcome-sedona {
+  background-image: url("../images/background/sedona-background.jpg");
+  background-size: cover;
+  background-color: #ffe4c4;
+  background-repeat: no-repeat;
+}
+
+.main {
+  text-align: center;
+}
+
+.visually-hidden {}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+h3{
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.page-header {}
+
+.navigate {}
+
+.header-logo-link {}
+
+.header-logo {}
+
+.navigate-list {}
+
+.navigate-item {}
+
+.navigate-list {}
+
+.navigate-data {}
+
+.welcome-sedona {}
+
+.places {}
+
+.places-title {}
+
+.places-description {
+  font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height, or 118% */
+text-align: center;
+
+/* Texts/second */
+color: #333333;
+
+}
+
+.places-list {}
+
+.places-items {}
+
+.places-items-title {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+  color: #FFFFFF;
+
+
+
+}
+
+.places-items-description {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* or 117% */
+  text-align: center;
+  background-color: #82b3d3;
+  color: #FFFFFF;
+
+}
+.places-subtitle{}
+.places-subtitle-title{
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+}
+.places-subtitle-description{
+  font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* or 117% */
+text-align: center;
+color: #333333;
+
+
+}
+
+.services-title {}
+
+.services-description {}
+
+.services-list {}
+
+.services-items {}
+
+.services-items-title {}
+
+.services-items-description {}
+
+.interested {}
+
+.interested-title {}
+
+.interested-description {}
+
+.subscribe {}
+
+.subscribe-title {}
+
+.subscribe-description {}
+
+.subscribe-form {}
+
+.page-footer {}
+
+.social {}
+
+.social-list {}
+
+.social-item {}
+
+.contacts-phone {}
