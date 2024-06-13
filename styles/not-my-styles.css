@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/*
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+*/
+
+/*Шапка*/
+.page-header{
+  color: rgba(0, 0, 0, 1);
+}
+
+.navigation-link{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navigation-button{
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/*Блок hero*/
+.hero{
+  background-image: url("../images/background/hero-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/*main для всего тела документа*/
+.page-main{
+  text-align: center; /*весь текст в этом блоке равняется по центру*/
+}
+
+.page-main h2{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.page-main h3{
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/*Блок advantages*/
+
+.advantages-description p{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/*Блок services*/
+.services-description p{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/*Блок reservation*/
+.reservation p{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-reservation{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+}
+
+/*Блок newsletter*/
+.newsletter{
+  background-image: url("../images/background/subscribe-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.newsletter p{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-newsletter{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+}
+
+/*Подвал сайта*/
+.footer-contacts-phone{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+}
+
+
+/*Каталог*/
+.filter-container{
+  background-image: url("../images/background/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-inner h1{
+  font-size: 60px;
+}
+
+.breadcrumbs-item{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.cards-filter-title{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cards-filter select{
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/*Список карточек*/
+.catalog-list-title{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+}
+
+.catalog-butten{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.catalog-rating{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*пагинация*/
+.pagination-link{
+  text-decoration: none;
+
+}
+/*Блок newsletter-inner*/
+.newsletter-inner{
+  text-align: center;
+}
+
+.newsletter-inner h2{
+  font-size: 30px;
+}
+
+.newsletter-inner p{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-subscribe{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+}
