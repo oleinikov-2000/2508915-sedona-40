@@ -49,7 +49,8 @@ h2 {
   text-transform: uppercase;
   color: #000000;
 }
-h3{
+
+h3 {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -85,15 +86,15 @@ h3{
 
 .places-description {
   font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height, or 118% */
-text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+  text-align: center;
 
-/* Texts/second */
-color: #333333;
+  /* Texts/second */
+  color: #333333;
 
 }
 
@@ -103,6 +104,23 @@ color: #333333;
 
 .places-items-title {
   font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+  color: #FFFFFF;
+}
+
+.places-items-description {
+  text-align: center;
+  background-color: #82b3d3;
+  color: #FFFFFF;
+
+}
+
+.places-subtitle {}
+
+.places-subtitle-title {
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -110,14 +128,11 @@ color: #333333;
   /* or 117% */
   text-align: center;
   text-transform: uppercase;
-  background-color: #82b3d3;
-  color: #FFFFFF;
-
-
+  color: #000000;
 
 }
 
-.places-items-description {
+.places-subtitle-description {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -125,32 +140,7 @@ color: #333333;
   line-height: 21px;
   /* or 117% */
   text-align: center;
-  background-color: #82b3d3;
-  color: #FFFFFF;
-
-}
-.places-subtitle{}
-.places-subtitle-title{
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-/* or 117% */
-text-align: center;
-text-transform: uppercase;
-color: #000000;
-
-}
-.places-subtitle-description{
-  font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-/* or 117% */
-text-align: center;
-color: #333333;
+  color: #333333;
 
 
 }
@@ -163,9 +153,35 @@ color: #333333;
 
 .services-items {}
 
-.services-items-title {}
+.services-items-title {
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
 
-.services-items-description {}
+
+}
+
+.services-items-description-food{
+  background-image: url("../images/icons/food.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.services-items-description-live{
+  background-image: url("../images/icons/housing.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+.services-items-description-souvenirs{
+  background-image: url("../images/icons/souvenirs.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
 
 .interested {}
 
@@ -187,6 +203,22 @@ color: #333333;
 
 .social-list {}
 
-.social-item {}
+.social-item-vk {
+  background-image: url("../images/social/vkontakte.svg");
+  background-repeat: no-repeat;
+}
+.social-item-telegram{
+  background-image: url("../images/social/telegram.svg");
+  background-repeat: no-repeat;
+}
+.social-item-youtube{
+  background-image: url("../images/social/youtube.svg");
+  background-repeat: no-repeat;
+}
+
 
 .contacts-phone {}
+.htmlacademy{
+  background-image: url("../images/html-academy.svg");
+  background-repeat: no-repeat;
+}
