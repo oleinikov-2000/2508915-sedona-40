@@ -154,30 +154,32 @@ h3 {
 .services-items {}
 
 .services-items-title {
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 
 
 }
 
-.services-items-description-food{
+.services-items-description-food {
   background-image: url("../images/icons/food.svg");
   background-repeat: no-repeat;
   text-align: center;
 }
-.services-items-description-live{
+
+.services-items-description-live {
   background-image: url("../images/icons/housing.svg");
   background-repeat: no-repeat;
   text-align: center;
 
 }
-.services-items-description-souvenirs{
+
+.services-items-description-souvenirs {
   background-image: url("../images/icons/souvenirs.svg");
   background-repeat: no-repeat;
   text-align: center;
@@ -185,17 +187,87 @@ color: #000000;
 
 .interested {}
 
-.interested-title {}
+.interested-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
 
-.interested-description {}
+.interested-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
 
-.subscribe {}
+.button-search{
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #756157;
+border-radius: 4px
 
-.subscribe-title {}
+}
 
-.subscribe-description {}
+.subscribe {
+  background-image: url("../images/background/background-sedona-footer.jpg");
+  background-size: cover;
+  background-color: #ffe4c4;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscribe-description {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 .subscribe-form {}
+
+.button-subscribe-email {
+
+
+}
+
+.button-email {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+}
 
 .page-footer {}
 
@@ -207,18 +279,21 @@ color: #000000;
   background-image: url("../images/social/vkontakte.svg");
   background-repeat: no-repeat;
 }
-.social-item-telegram{
+
+.social-item-telegram {
   background-image: url("../images/social/telegram.svg");
   background-repeat: no-repeat;
 }
-.social-item-youtube{
+
+.social-item-youtube {
   background-image: url("../images/social/youtube.svg");
   background-repeat: no-repeat;
 }
 
 
 .contacts-phone {}
-.htmlacademy{
+
+.htmlacademy {
   background-image: url("../images/html-academy.svg");
   background-repeat: no-repeat;
 }
