@@ -216,7 +216,7 @@ h3 {
   line-height: 24px;
   align-items: center;
   color: #000000;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px;
 }
 
 .subscribe-email{
@@ -242,7 +242,7 @@ color: #000000;
   text-transform: uppercase;
   color: #FFFFFF;
   background: #82B3D3;
-  border-radius: 0px 4px 4px 0px;
+
 }
 
 
@@ -260,7 +260,6 @@ color: #000000;
   background-image: url("../images/social/youtube.svg");
   background-repeat: no-repeat;
 }
-
 
 .htmlacademy {
   background-image: url("../images/html-academy.svg");
