@@ -318,3 +318,94 @@ h3 {
   line-height: 23px;
   color: #ffffff;
 }
+
+.button-catalog {
+
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82b3d3;
+  border-radius: 4px;
+}
+
+.button-clear-button-catalog {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.cards-filter {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-card-button-detail-button {
+  background: #756157;
+  border-radius: 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-hotel-card-to-selected {
+  background: #7DB54F;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+}
+
+.button-hotel-card-to-select {
+  background: #82B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.four-stars{
+  content: url("../images/icons/four-satrs.svg");
+  width: 90px;
+  height: 17px;
+}
+.three-stars{
+  content: url("../images/icons/three-stars.svg");
+  width: 66px;
+  height: 17px;
+}
+.two-stars{
+  content: url("../images/icons/two-stars.svg");
+  width: 42px;
+  height: 17px;
+}
