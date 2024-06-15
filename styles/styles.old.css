@@ -129,22 +129,21 @@ h3 {
 }
 
 .services-items-description-food {
-  background-image: url("../images/icons/food.svg");
-  background-repeat: no-repeat;
-  text-align: center;
+  content: url("../images/icons/food.svg");
+  width: 75px;
+  height: 72px;
 }
 
 .services-items-description-live {
-  background-image: url("../images/icons/housing.svg");
-  background-repeat: no-repeat;
-  text-align: center;
-
+  content: url("../images/icons/housing.svg");
+  width: 75px;
+  height: 72px;
 }
 
 .services-items-description-souvenirs {
-  background-image: url("../images/icons/souvenirs.svg");
-  background-repeat: no-repeat;
-  text-align: center;
+  content: url("../images/icons/souvenirs.svg");
+  width: 75px;
+  height: 72px;
 }
 
 
@@ -176,9 +175,10 @@ h3 {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #756157;
-  border-radius: 4px
+  border-radius: 4px;
+
 }
 
 .subscribe {
@@ -195,7 +195,7 @@ h3 {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-description {
@@ -216,17 +216,18 @@ h3 {
   line-height: 24px;
   align-items: center;
   color: #000000;
-  border-radius: 4px;
+
 }
 
-.subscribe-email{
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-align-items: center;
-color: #000000;
+.subscribe-email {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+
 
 }
 
@@ -240,28 +241,33 @@ color: #000000;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #82B3D3;
 
 }
 
 
 .social-item-vk {
+  text-align: center;
   background-image: url("../images/social/vkontakte.svg");
   background-repeat: no-repeat;
 }
 
 .social-item-telegram {
+  text-align: center;
   background-image: url("../images/social/telegram.svg");
   background-repeat: no-repeat;
 }
 
 .social-item-youtube {
+  text-align: center;
   background-image: url("../images/social/youtube.svg");
   background-repeat: no-repeat;
 }
 
 .htmlacademy {
+  text-align: center;
   background-image: url("../images/html-academy.svg");
+  background-size: contain;
   background-repeat: no-repeat;
 }

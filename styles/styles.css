@@ -128,23 +128,23 @@ h3 {
   color: #000000;
 }
 
+
 .services-items-description-food {
-  background-image: url("../images/icons/food.svg");
-  background-repeat: no-repeat;
-  text-align: center;
+  content: url("../images/icons/food.svg");
+  width: 75px;
+  height: 72px;
 }
 
 .services-items-description-live {
-  background-image: url("../images/icons/housing.svg");
-  background-repeat: no-repeat;
-  text-align: center;
-
+  content: url("../images/icons/housing.svg");
+  width: 75px;
+  height: 72px;
 }
 
 .services-items-description-souvenirs {
-  background-image: url("../images/icons/souvenirs.svg");
-  background-repeat: no-repeat;
-  text-align: center;
+  content: url("../images/icons/souvenirs.svg");
+  width: 75px;
+  height: 72px;
 }
 
 
@@ -220,14 +220,14 @@ h3 {
 
 }
 
-.subscribe-email{
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-align-items: center;
-color: #000000;
+.subscribe-email {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
 
 
 }
