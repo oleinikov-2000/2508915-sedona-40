@@ -32,8 +32,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.logo {
+  margin-top: 0%;
+  margin-bottom: 15%;
+}
+
 .main {
   text-align: center;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+
 }
 
 
@@ -228,6 +236,7 @@ h3 {
   line-height: 24px;
   align-items: center;
   color: #000000;
+  padding: 30px;
 
 
 }
@@ -244,6 +253,7 @@ h3 {
   text-transform: uppercase;
   color: #ffffff;
   background: #82B3D3;
+  border: none;
 
 }
 
@@ -345,6 +355,9 @@ h3 {
   text-transform: uppercase;
   border-radius: 4px;
   color: #ffffff;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .cards-filter {
@@ -394,17 +407,20 @@ h3 {
   text-transform: uppercase;
   color: #ffffff;
 }
-.four-stars{
+
+.four-stars {
   content: url("../images/icons/four-satrs.svg");
   width: 90px;
   height: 17px;
 }
-.three-stars{
+
+.three-stars {
   content: url("../images/icons/three-stars.svg");
   width: 66px;
   height: 17px;
 }
-.two-stars{
+
+.two-stars {
   content: url("../images/icons/two-stars.svg");
   width: 42px;
   height: 17px;
