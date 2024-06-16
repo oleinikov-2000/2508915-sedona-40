@@ -381,6 +381,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  border: none;
 }
 
 .button-hotel-card-to-selected {
@@ -393,6 +394,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  border: none;
 
 }
 
@@ -406,6 +408,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  border: none;
 }
 
 .four-stars {
