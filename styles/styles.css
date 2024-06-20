@@ -149,6 +149,10 @@ s .places-items-description-1 {
 
 .services-items-1 {
   background: #f0f6fa;
+  text-align: center;
+}
+.services-items{
+  text-align: center;
 }
 
 .services-items-title {
@@ -157,7 +161,7 @@ s .places-items-description-1 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
+  text-align:center;
   text-transform: uppercase;
   color: #000000;
 }
@@ -168,10 +172,12 @@ s .places-items-description-1 {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height, or 118% */
-  text-align: center;
+  text-align:center;
   color: #333333;
 
+}
+.icon-home{
+  text-align: center;
 }
 
 .interested-title {
@@ -458,7 +464,6 @@ s .places-items-description-1 {
 .pagination-link-pagination-current {
   display: block;
   text-align: center;
-  vertical-align: middle;
   line-height: 60px;
   width: 60px;
   height: 60px;
@@ -467,10 +472,9 @@ s .places-items-description-1 {
 }
 
 .pagination-link {
-  margin-top: 10px;
+  margin-top: 8px;
   display: block;
   text-align: center;
-  vertical-align: middle;
   line-height: 60px;
   width: 60px;
   height: 60px;
