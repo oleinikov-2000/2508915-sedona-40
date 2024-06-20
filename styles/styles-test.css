@@ -32,8 +32,8 @@ body {
   font-size: 20px;
   line-height: 36px;
   /* display: block;
-  align-items: center; */
-  text-align: center;
+  align-items: center;
+  text-align: center; */
   text-transform: uppercase;
   color: #ffffff;
   background: #756157;
@@ -93,39 +93,17 @@ h3 {
 .social-link {
   text-decoration: none;
 }
-/* .navigate{
-  display: flex;
-  margin: 0 auto;
-  width: 1100px;
-} */
-/* .navigate-list{
-  display: flex;
-  justify-content: space-between;
-  width: 540px;
-  margin: 0;
-  /* padding: 46px; */
-} */
 
-/* .navigate-data{
- display: flex;
-  justify-content: space-between;
-  width: 240px;
-  margin: 0;
-} */
-
-.navigate-link-want{
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #756157;
-  margin: 5px;
-  padding: 5px 25px;
-  border-radius: 5px;
-  text-decoration: none;
+.navigate-link{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: capitalize;
 
 }
-
-
-
 .places-items,
 .places-items-1 {
   background-color: #82b3d3;

@@ -94,7 +94,16 @@ h3 {
   text-decoration: none;
 }
 
+.navigate-link{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: capitalize;
 
+}
 .places-items,
 .places-items-1 {
   background-color: #82b3d3;
