@@ -207,8 +207,9 @@ s .places-items-description-1 {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  /* display: block;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   text-transform: uppercase;
   color: #ffffff;
   background: #756157;
