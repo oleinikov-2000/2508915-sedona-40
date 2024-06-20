@@ -22,7 +22,23 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color: #ffffff;
   margin: 0;
+}
+.button-search {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  /* display: block;
+  align-items: center;
+  text-align: center; */
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+  border-radius: 4px;
+
 }
 
 
@@ -201,21 +217,6 @@ s .places-items-description-1 {
   color: #333333;
 }
 
-.button-search {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  /* display: block;
-  align-items: center;
-  text-align: center; */
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #756157;
-  border-radius: 4px;
-
-}
 
 .subscribe {
   background-image: url("../images/background/background-sedona-footer.jpg");
