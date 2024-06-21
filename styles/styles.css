@@ -14,16 +14,35 @@
   font-display: swap;
 
 }
+html {
+  height: 100%;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color:  #f2f2f2;
+  text-align:center;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
   background-color: #ffffff;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  box-shadow: 1px 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+.header-logo{
+  padding-left: 0;
 }
 .button-search {
   font-family: inherit;
@@ -40,7 +59,6 @@ body {
   border-radius: 4px;
 
 }
-
 
 .welcome-sedona {
   background-image: url("../images/background/sedona-background.jpg");
@@ -90,11 +108,13 @@ h3 {
 .navigate-link,
 .hotel-card-link,
 .pagination-link,
-.social-link {
+.social-link,
+.navigate-link-search {
   text-decoration: none;
 }
 
-.navigate-link{
+.navigate-link {
+  /* display: flex; */
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -104,9 +124,9 @@ h3 {
   text-transform: capitalize;
 
 }
-.places-items,
-.places-items-1 {
-  background-color: #82b3d3;
+.navigate-item{
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .places-items-title {
@@ -116,6 +136,7 @@ h3 {
   background-color: #82b3d3;
   color: #ffffff;
 }
+
 
 s .places-items-description-1 {
   font-family: inherit;
@@ -176,7 +197,8 @@ s .places-items-description-1 {
   background: #f0f6fa;
   text-align: center;
 }
-.services-items{
+
+.services-items {
   text-align: center;
 }
 
@@ -186,7 +208,7 @@ s .places-items-description-1 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-align:center;
+  text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
@@ -197,11 +219,12 @@ s .places-items-description-1 {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align:center;
+  text-align: center;
   color: #333333;
 
 }
-.icon-home{
+
+.icon-home {
   text-align: center;
 }
 
@@ -295,6 +318,7 @@ s .places-items-description-1 {
 }
 
 .catalog-hotels-background {
+  display: flexs;
   background-image: url("../images/background/background-search.jpg");
   background-size: cover;
   background-color: #ffe4c4;
@@ -460,8 +484,9 @@ s .places-items-description-1 {
   border-radius: 4px;
 
 }
+
 .cards-one,
-.cards-list{
+.cards-list {
   text-align: center;
   vertical-align: middle;
   line-height: 48px;
