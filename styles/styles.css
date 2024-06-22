@@ -172,6 +172,10 @@ h3 {
 
 }
 
+.places-list {
+  padding: 0;
+}
+
 .places-items {
   display: flex;
   flex-direction: row;
@@ -184,6 +188,7 @@ h3 {
 
 .places-items-title {
   color: #ffffff;
+  width: 300px;
 }
 
 
@@ -210,11 +215,15 @@ h3 {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  /* background: rgba(131, 179, 211, 0.12); */
   color: #000000;
 
 }
 
 .places-subtitle-description {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-grow: 1; */
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -225,28 +234,62 @@ h3 {
   color: #333333;
 }
 
-.places-subtitle-nice-road {
+.places-subtitle-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.places-subtitle{
   background: #f0f6fa;
+
+
+}
+
+.places-subtitle-nice-road {
+  display: flex;
+  flex-direction: column;
+  background: rgba(131, 179, 211, 0.2);
+
+}
+
+.three-items {
+  display: flex;
+  flex-grow: 1;
+  padding: 0;
+  padding-right: 0;
+
+
 }
 
 .services-items-1 {
+  display: flex;
+  flex-direction: row;
   background: #f0f6fa;
-  text-align: center;
+  /* text-align: center; */
+  align-items: center;
 }
 
 .services-items {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 0;
+  /* text-align: center; */
+  align-items: center;
 }
 
 .services-items-title {
+  /* display: flex;
+  flex-direction: row; */
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
   color: #000000;
+  align-items: center;
 }
 
 .services-description {
@@ -255,8 +298,9 @@ h3 {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  /* text-align: center; */
   color: #333333;
+  align-items: center;
 
 }
 
@@ -565,7 +609,8 @@ h3 {
   color: #000000;
   text-decoration: none;
 }
-.page-footer{
+
+.page-footer {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
@@ -573,13 +618,15 @@ h3 {
   margin-left: 82px;
   margin-right: 70px;
 }
-.social-contact{
+
+.social-contact {
   display: flex;
   /* flex-grow: 1; */
   flex-direction: row;
   align-items: center;
 }
-.phone-footer{
+
+.phone-footer {
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -587,7 +634,8 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.logo-footer{
+
+.logo-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
