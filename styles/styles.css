@@ -354,7 +354,7 @@ h3 {
 }
 
 .catalog-hotels-background {
-  display: flexs;
+  /* display: flex; */
   background-image: url("../images/background/background-search.jpg");
   background-size: cover;
   background-color: #ffe4c4;
@@ -571,6 +571,7 @@ h3 {
   flex-direction: row;
   text-align: center;
   height: 120px;
+  margin-left: 82px;
   margin-right: 70px;
 }
 .social-contact{
