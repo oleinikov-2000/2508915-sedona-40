@@ -126,7 +126,6 @@ h3 {
 }
 
 .navigate-link {
-  /* display: flex; */
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -174,6 +173,8 @@ h3 {
 }
 
 .places-items {
+  display: flex;
+  flex-direction: row;
   font-family: inherit;
   text-align: center;
   text-transform: uppercase;
@@ -187,11 +188,7 @@ h3 {
 
 
 .places-items-description {
-  font-family: inherit;
-  text-align: center;
-  background-color: #82b3d3;
-  color: #ffffff;
-
+  text-transform: none;
 }
 
 .places-description {
@@ -566,4 +563,36 @@ h3 {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+}
+.page-footer{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  text-align: center;
+  height: 120px;
+}
+.social-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* flex-grow: 1; */
+  /* text-align: center; */
+}
+.phone-footer{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  /* height: 120px; */
+}
+.logo-footer{
+  display: flex;
+  margin-right: 70px;
+  /* margin-top: auto; */
+  align-items: center;
+  /* flex-grow: 1; */
+  /* flex-direction: row; */
+  /* text-align: center; */
 }
