@@ -569,25 +569,27 @@ h3 {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
-  text-align: center;
   height: 120px;
   margin-left: 82px;
   margin-right: 70px;
 }
 .social-contact{
   display: flex;
+  flex-grow: 1;
   flex-direction: row;
   align-items: center;
 }
 .phone-footer{
   display: flex;
   flex-grow: 1;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 .logo-footer{
   display: flex;
+  flex-direction: row;
   /* margin-right: 70px; */
   align-items: center;
 }
