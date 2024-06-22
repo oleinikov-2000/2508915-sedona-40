@@ -44,16 +44,18 @@ body {
   box-shadow: 1px 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-.page-header{
-  margin-left: 70px;
+.page-header {
+  margin-left: 115px;
 }
+
 .header-logo {
   padding-left: 0;
 }
 
-.header-logo-link{
+.header-logo-link {
   display: flex;
 }
+
 .button-search {
   font-family: inherit;
   font-style: normal;
@@ -135,25 +137,50 @@ h3 {
 
 }
 
-.navigate-item {
-  /* display: flex;
-  justify-content: space-between; */
+.navigate {
+  display: flex;
+  flex-direction: row;
 }
-.want-here-link a{
-text-transform: uppercase;
-color: #ffffff;
-background: #756157;
-border-radius: 4px;
-display: block;
+
+.navigate-list-first {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.navigate-list-second {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-right: 70px;
+}
+
+.want-here-link a {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+  border-radius: 4px;
+  min-width: 160px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  display: block;
+
 
 }
-.places-items{
+
+.places-items {
   font-family: inherit;
   text-align: center;
   text-transform: uppercase;
   background-color: #82b3d3;
   color: #ffffff;
 }
+
 .places-items-title {
   color: #ffffff;
 }
