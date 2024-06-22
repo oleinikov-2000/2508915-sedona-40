@@ -139,7 +139,14 @@ h3 {
   /* display: flex;
   justify-content: space-between; */
 }
+.want-here-link a{
+text-transform: uppercase;
+color: #ffffff;
+background: #756157;
+border-radius: 4px;
+display: block;
 
+}
 .places-items{
   font-family: inherit;
   text-align: center;
