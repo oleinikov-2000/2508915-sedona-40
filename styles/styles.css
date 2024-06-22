@@ -575,7 +575,7 @@ h3 {
 }
 .social-contact{
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   flex-direction: row;
   align-items: center;
 }
@@ -590,6 +590,5 @@ h3 {
 .logo-footer{
   display: flex;
   flex-direction: row;
-  /* margin-right: 70px; */
   align-items: center;
 }
