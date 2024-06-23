@@ -539,6 +539,9 @@ h3 {
   color: #000000;
 
 }
+.find-hotels-sort{
+  display: flex;
+}
 
 .hotel-card-button-detail-button {
   font-family: inherit;
