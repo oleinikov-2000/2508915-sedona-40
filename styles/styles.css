@@ -403,6 +403,8 @@ h3 {
   background-size: cover;
   background-color: #ffe4c4;
   background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .catalog-header-title {
@@ -412,6 +414,7 @@ h3 {
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
+  text-align: left;
 }
 
 
@@ -468,6 +471,13 @@ h3 {
   padding: 0;
   border: none;
   background: none;
+}
+
+.filling{
+  display: flex;
+  /* flex-grow: 1; */
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .find-hotels-sort {
