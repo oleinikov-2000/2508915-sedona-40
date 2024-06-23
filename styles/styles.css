@@ -583,7 +583,22 @@ h3 {
   color: #ffffff;
   border: none;
 }
+.cards-filter{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.cards{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+justify-content: space-between;
 
+}
+.cards-view{
+  display: flex;
+  flex-direction: row;
+}
 .cards-any {
   text-align: center;
   vertical-align: middle;
