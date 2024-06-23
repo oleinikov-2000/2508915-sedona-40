@@ -121,7 +121,8 @@ h3 {
 .hotel-card-link,
 .pagination-link,
 .social-link,
-.navigate-link-search {
+.navigate-link-search,
+.breadcrumbs-link {
   text-decoration: none;
 }
 
@@ -239,7 +240,7 @@ h3 {
   flex-direction: column;
 }
 
-.places-subtitle{
+.places-subtitle {
   background: #f0f6fa;
 
 
@@ -305,9 +306,13 @@ h3 {
 }
 
 .icon-home {
-  text-align: center;
+  text-align: left;
 }
-
+.cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .interested-title {
   font-family: inherit;
   font-style: normal;
@@ -403,6 +408,8 @@ h3 {
   background-size: cover;
   background-color: #ffe4c4;
   background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .catalog-header-title {
@@ -412,6 +419,7 @@ h3 {
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
+  text-align: left;
 }
 
 
@@ -452,6 +460,9 @@ h3 {
   color: #ffffff;
   background: #82b3d3;
   border-radius: 4px;
+  min-width: 191px;
+  height: 36px;
+
 }
 
 .button-clear-button-catalog {
@@ -470,6 +481,13 @@ h3 {
   background: none;
 }
 
+.filling {
+  display: flex;
+  /* flex-grow: 1; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .find-hotels-sort {
   font-family: inherit;
   font-style: normal;
@@ -481,9 +499,21 @@ h3 {
 }
 
 .hotel-card-title {
-  text-align: left;
+  text-align: center;
 }
 
+.hotel-list{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 20; */
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+}
 .hotel-card-type {
   font-family: inherit;
   font-style: normal;
