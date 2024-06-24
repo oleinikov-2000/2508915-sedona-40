@@ -308,11 +308,13 @@ h3 {
 .icon-home {
   text-align: left;
 }
-.cards-wrapper{
+
+.cards-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .interested-title {
   font-family: inherit;
   font-style: normal;
@@ -502,18 +504,20 @@ h3 {
   text-align: center;
 }
 
-.hotel-list{
+.hotel-list {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* gap: 20; */
+  margin-left: 190px;
 }
-.cards{
+
+.cards {
   display: flex;
   flex-direction: row;
 }
+
 .hotel-card-type {
   font-family: inherit;
   font-style: normal;
@@ -539,7 +543,8 @@ h3 {
   color: #000000;
 
 }
-.find-hotels-sort{
+
+.find-hotels-sort {
   display: flex;
 }
 
@@ -586,22 +591,25 @@ h3 {
   color: #ffffff;
   border: none;
 }
-.cards-filter{
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
-}
-.cards{
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
-justify-content: space-between;
 
+.cards-filter {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
 }
-.cards-view{
+
+.cards {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cards-view {
   display: flex;
   flex-direction: row;
 }
+
 .cards-any {
   text-align: center;
   vertical-align: middle;
@@ -623,27 +631,30 @@ justify-content: space-between;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
-.pagination-link-pagination-current{
-  align-content:first baseline;
+
+.pagination-link-pagination-current {
+  align-content: first baseline;
 
   display: flex;
   flex-direction: row;
 }
 
-.pagination{
-/* align-items: center; */
+.pagination {
+  /* align-items: center; */
   margin-left: 70px;
   display: flex;
   flex-direction: row;
   gap: 8px;
   flex-grow: 1;
 }
-.pagination-item{
+
+.pagination-item {
   display: flex;
   flex-direction: row;
 
   /* justify-content: space-between; */
 }
+
 .pagination-link-pagination-current {
   display: block;
   text-align: center;
@@ -692,7 +703,8 @@ justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
-.social-link{
+
+.social-link {
   display: flex;
   gap: 3px;
 }
