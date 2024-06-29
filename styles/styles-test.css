@@ -175,9 +175,13 @@ s .places-items-description-1 {
 .services-items-1 {
   background: #f0f6fa;
   text-align: center;
+  width: 400px;
+  height: 385px;
 }
 .services-items{
   text-align: center;
+  width: 400px;
+  height: 385px;
 }
 
 .services-items-title {

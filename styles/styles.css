@@ -46,15 +46,15 @@ body {
 
 .page-header {
   /* margin-left: 115px; */
-/* padding-left: 70px;
+  /* padding-left: 70px;
 padding-right: 70px; */
-padding: 0 70px 0 70px;
+  padding: 0 70px 0 70px;
 
 }
 
 .header-logo {
   /* padding-left: 0; */
- display: block;
+  display: block;
 }
 
 .header-logo-link {
@@ -130,9 +130,11 @@ h3 {
 .breadcrumbs-link {
   text-decoration: none;
 }
-.visually-hidden.sedona{
+
+.visually-hidden.sedona {
   margin: 0;
 }
+
 .navigate-link {
   font-family: inherit;
   font-style: normal;
@@ -185,11 +187,22 @@ h3 {
 
 
 }
-.places-title{
-margin: 69px 290px 69px 290px;
+
+.places-title {
+  /* margin: 69px 290px 69px 290px; */
 }
+
+.places-description {
+  margin-bottom: 90px;
+}
+
 .places-list {
   padding: 0;
+}
+
+.places-title.h2 {
+  margin: 69px 290px 25px 290px;
+  ;
 }
 
 .places-items {
@@ -204,12 +217,18 @@ margin: 69px 290px 69px 290px;
 
 .places-items-title {
   color: #ffffff;
-  width: 300px;
+  margin: 102px 113px 62px 102px;
+  /* width: 300px; */
 }
 
+/* .places-items-title.h3{
+  display: inline;
+
+} */
 
 .places-items-description {
   text-transform: none;
+  margin: 0 85px auto 85px;
 }
 
 .places-description {
@@ -220,9 +239,12 @@ margin: 69px 290px 69px 290px;
   line-height: 26px;
   text-align: center;
   color: #333333;
-
+  padding-bottom: 64px;
 }
 
+/* .places-description.p{
+ margin-top: 0;
+} */
 .places-subtitle-title {
   font-family: inherit;
   font-style: normal;
@@ -233,65 +255,108 @@ margin: 69px 290px 69px 290px;
   text-transform: uppercase;
   /* background: rgba(131, 179, 211, 0.12); */
   color: #000000;
+  margin-bottom: 62px;
 
 }
 
 .places-subtitle-description {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-grow: 1; */
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  /* or 117% */
   text-align: center;
   color: #333333;
+  margin: 0;
+  /* padding-left: 85px; */
+  /* margin: 0; */
+}
+
+.places-subtitle-description.p {
+  padding-top: 62px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 .places-subtitle-title {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 113px 113px 0 113px;
 }
 
 .places-subtitle {
   background: #f0f6fa;
+  width: 400px;
+  height: 385px;
+  list-style-type: none;
+  /* display: inline;
+  margin: 0 auto; */
+  /* padding: 113px 113px 0 113px; */
 
 
 }
 
 .places-subtitle-nice-road {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  height: 385px;
+  list-style-type: none;
+  /* padding: 113px 113px 0 113px; */
+}
 
+.services-title.h2 {
+  margin: 0;
+}
+
+.services-title {
+  padding: 64px 345px 0 345px;
 }
 
 .three-items {
   display: flex;
   flex-grow: 1;
-  padding: 0;
-  padding-right: 0;
+  /* justify-content: baseline; */
+  margin: 0;
 
+
+
+
+}
+
+.services-item {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  height: 385px;
 
 }
 
 .services-items-1 {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-between; */
   background: #f0f6fa;
+  height: 385px;
+
   /* text-align: center; */
-  align-items: center;
+  /* align-items: center;
+  padding: 81px 85px 81px 85px; */
+
 }
 
 .services-items {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-grow: 1;
-  padding: 0;
+  flex-grow: 1; */
+  /* padding-left: 0; */
+
+
+  /* padding: 81px 85px 81px 85px; */
   /* text-align: center; */
-  align-items: center;
+  /* align-items: center;
+  margin: 0; */
 }
 
 .services-items-title {
@@ -302,10 +367,10 @@ margin: 69px 290px 69px 290px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  /* text-align: center; */
   text-transform: uppercase;
   color: #000000;
   align-items: center;
+  margin: 183px 85px 0 85px;
 }
 
 .services-description {
@@ -317,7 +382,13 @@ margin: 69px 290px 69px 290px;
   /* text-align: center; */
   color: #333333;
   align-items: center;
+  padding-bottom: 64px;
 
+}
+
+.services-items-description {
+  margin: 0;
+  padding: 30px 85px 0 85px;
 }
 
 .icon-home {
@@ -351,6 +422,9 @@ margin: 69px 290px 69px 290px;
   color: #333333;
 }
 
+.interested {
+  padding: 96px 304px 200px 304px;
+}
 
 .subscribe {
   background-image: url("../images/background/background-sedona-footer.jpg");
