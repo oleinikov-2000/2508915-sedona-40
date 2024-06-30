@@ -18,7 +18,8 @@
 html {
   height: 100%;
 }
-.visually-hidden.h1{
+
+.visually-hidden.h1 {
   margin: 0;
 }
 
@@ -79,7 +80,7 @@ padding-right: 70px; */
   height: 52px;
 }
 
-.button{
+.button {
   /* margin: 0; */
   padding: 54px 412px 96px 412px;
 }
@@ -474,7 +475,8 @@ h3 {
   text-transform: uppercase;
   color: #ffffff;
 }
-.subscribe-title.h2{
+
+.subscribe-title.h2 {
   margin: 0;
   padding: 0 398px 20px 398px;
 }
@@ -489,7 +491,8 @@ h3 {
   text-align: center;
   color: #ffffff;
 }
-.subscribe-description.p{
+
+.subscribe-description.p {
   margin: 0;
   padding: 0 363px 54px 363px;
 }
@@ -533,11 +536,12 @@ h3 {
   height: 52px;
   padding: 0;
 }
-.field{
-width: 452px;
-height: 52px;
-padding-right: 0;
-padding-left: 20px;
+
+.field {
+  width: 452px;
+  height: 52px;
+  padding-right: 0;
+  padding-left: 20px;
 }
 
 .catalog-hotels-background {
@@ -832,6 +836,9 @@ padding-left: 20px;
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+  width: 331px;
+  padding-right: 70px;
+  /* justify-self: flex-start; */
 }
 
 .page-footer {
@@ -839,6 +846,7 @@ padding-left: 20px;
   flex-grow: 1;
   flex-direction: row;
   height: 120px;
+  /* justify-content: space-between; */
   /* margin-left: 82px;
   margin-right: 70px; */
 }
@@ -852,6 +860,7 @@ padding-left: 20px;
 
 .social-link {
   display: flex;
+  justify-content: space-between;
   gap: 3px;
 }
 
