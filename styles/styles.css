@@ -839,8 +839,8 @@ padding-left: 20px;
   flex-grow: 1;
   flex-direction: row;
   height: 120px;
-  margin-left: 82px;
-  margin-right: 70px;
+  /* margin-left: 82px;
+  margin-right: 70px; */
 }
 
 .social-contact {
