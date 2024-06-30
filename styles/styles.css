@@ -18,6 +18,9 @@
 html {
   height: 100%;
 }
+.visually-hidden.h1{
+  margin: 0;
+}
 
 body {
   display: flex;
@@ -131,9 +134,6 @@ h3 {
   text-decoration: none;
 }
 
-.visually-hidden.sedona {
-  margin: 0;
-}
 
 .navigate-link {
   font-family: inherit;
@@ -460,6 +460,8 @@ h3 {
   background-size: cover;
   background-color: #ffe4c4;
   background-repeat: no-repeat;
+  padding: 96px 0 104px;
+
 }
 
 .subscribe-title {
@@ -474,7 +476,7 @@ h3 {
 }
 .subscribe-title.h2{
   margin: 0;
-  padding: 96px 398px 20px 398px;
+  padding: 0 398px 20px 398px;
 }
 
 .subscribe-description {
