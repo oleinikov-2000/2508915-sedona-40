@@ -862,7 +862,7 @@ h3 {
 
 .page-footer {
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   flex-direction: row;
   height: 120px;
   /* justify-content: space-between; */
