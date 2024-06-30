@@ -68,14 +68,17 @@ padding-right: 70px; */
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  /* display: block;
-  align-items: center;
-  text-align: center; */
   text-transform: uppercase;
   color: #ffffff;
   background: #756157;
   border-radius: 4px;
+  width: 376px;
+  height: 52px;
+}
 
+.button{
+  /* margin: 0; */
+  padding: 54px 412px 96px 412px;
 }
 
 .welcome-sedona {
@@ -83,9 +86,6 @@ padding-right: 70px; */
   background-size: cover;
   background-color: #ffe4c4;
   background-repeat: no-repeat;
-  /* text-align: center; */
-  /* margin: 0 auto; */
-  /* padding: 51px; */
   margin-top: 0;
 }
 
@@ -330,6 +330,8 @@ h3 {
   flex-direction: row;
   list-style-type: none;
   height: 385px;
+  margin-bottom: 0;
+  padding: 0;
 
 }
 
@@ -351,6 +353,8 @@ h3 {
   flex-direction: row;
   flex-grow: 1; */
   /* padding-left: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
 
 
   /* padding: 81px 85px 81px 85px; */
@@ -403,6 +407,7 @@ h3 {
 
 .interested-title {
   font-family: inherit;
+  /* display: block; */
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -410,6 +415,14 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  /* margin: 0; */
+  /* padding: 96px 452px 0 452px; */
+  padding-top: 96px;
+}
+
+.interested-title.h2 {
+  margin: 0;
+  /* padding: 96px; */
 }
 
 .interested-description {
@@ -418,12 +431,28 @@ h3 {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  /* text-align: center; */
   color: #333333;
+  margin: 0;
+  /* padding: 20px 304px 106px 304px; */
+  padding: 0;
+
 }
 
+.interested-description.p {
+  /* margin: 20px 304px 0 304px; */
+  /* padding-left: 304px; */
+  padding: 20px 304px 0 304px;
+}
+
+
 .interested {
-  padding: 96px 304px 200px 304px;
+  /* padding: 96px 304px 0 304px; */
+  /* display: inline-block; */
+  /* display: inline; */
+  /* width: 592px;
+  height: 214px; */
+  /* padding: 96px 452px 0 452px; */
 }
 
 .subscribe {
@@ -443,6 +472,10 @@ h3 {
   text-transform: uppercase;
   color: #ffffff;
 }
+.subscribe-title.h2{
+  margin: 0;
+  padding: 96px 398px 20px 398px;
+}
 
 .subscribe-description {
   /* margin-top: 10%; */
@@ -453,6 +486,10 @@ h3 {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+}
+.subscribe-description.p{
+  margin: 0;
+  padding: 0 363px 54px 363px;
 }
 
 .subscribe-form {
@@ -490,7 +527,15 @@ h3 {
   color: #ffffff;
   background: #82B3D3;
   border: none;
-
+  width: 232px;
+  height: 52px;
+  padding: 0;
+}
+.field{
+width: 452px;
+height: 52px;
+padding-right: 0;
+padding-left: 20px;
 }
 
 .catalog-hotels-background {
