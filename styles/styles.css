@@ -464,6 +464,10 @@ h3 {
   padding: 96px 0 104px;
 
 }
+.subscribe-catalog{
+  padding: 96px 0 104px;
+
+}
 
 .subscribe-title {
   /* margin-top: 10%; */
@@ -490,6 +494,15 @@ h3 {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+}
+.subscribe-description-catalog{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
 }
 
 .subscribe-description.p {
@@ -782,16 +795,16 @@ h3 {
   border-radius: 4px;
 }
 
-.pagination-link-pagination-current {
+/* .pagination-link-pagination-current {
   align-content: first baseline;
 
   display: flex;
   flex-direction: row;
-}
+} */
 
 .pagination {
-  /* align-items: center; */
   margin-left: 70px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -801,8 +814,6 @@ h3 {
 .pagination-item {
   display: flex;
   flex-direction: row;
-
-  /* justify-content: space-between; */
 }
 
 .pagination-link-pagination-current {
@@ -816,7 +827,6 @@ h3 {
 }
 
 .pagination-link {
-  margin-top: 8px;
   display: block;
   text-align: center;
   line-height: 60px;
@@ -825,6 +835,15 @@ h3 {
   background: #82B3D3;
   border-radius: 4px;
   color: #ffffff;
+}
+.pagination-link.points{
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  min-width: 60px;
+  height: 60px;
+  background: #ffffff;
+  color: #000000;
 }
 
 .phone-footer-link {
@@ -837,7 +856,7 @@ h3 {
   color: #000000;
   text-decoration: none;
   width: 331px;
-  padding-right: 70px;
+  /* padding-right: 70px; */
   /* justify-self: flex-start; */
 }
 
@@ -847,8 +866,8 @@ h3 {
   flex-direction: row;
   height: 120px;
   /* justify-content: space-between; */
-  /* margin-left: 82px;
-  margin-right: 70px; */
+  margin-left: 82px;
+  margin-right: 70px;
 }
 
 .social-contact {
@@ -856,12 +875,14 @@ h3 {
   /* flex-grow: 1; */
   flex-direction: row;
   align-items: center;
+  padding-right: 70px;
 }
 
 .social-link {
   display: flex;
   justify-content: space-between;
   gap: 3px;
+
 }
 
 .phone-footer {
@@ -877,4 +898,5 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 70px;
 }
