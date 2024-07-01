@@ -486,7 +486,10 @@ h3 {
   margin: 0;
   padding: 0 398px 20px 398px;
 }
-
+.subscribe-title-catalog.h2{
+  margin: 0;
+  padding: 0 398px 20px 398px;
+}
 .subscribe-description {
   /* margin-top: 10%; */
   font-family: inherit;
@@ -512,8 +515,12 @@ h3 {
   padding: 0 363px 54px 363px;
 }
 
+.subscribe-description-catalog.p{
+  margin: 0;
+  padding: 0 363px 54px 363px;
+}
+
 .subscribe-form {
-  /* margin-top: 10%; */
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -861,8 +868,6 @@ h3 {
   color: #000000;
   text-decoration: none;
   width: 331px;
-  /* padding-right: 70px; */
-  /* justify-self: flex-start; */
 }
 
 .page-footer {
@@ -870,7 +875,6 @@ h3 {
   /* flex-grow: 1; */
   flex-direction: row;
   height: 120px;
-  /* justify-content: space-between; */
   margin-left: 82px;
   margin-right: 70px;
 }
